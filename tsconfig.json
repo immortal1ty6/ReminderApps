@@ -16,6 +16,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/api/login.js", "src/pages/api/calendar/googleCalendar.js", "src/pages/index.js", "src/pages/api/create-events.js", "src/pages/api/index.js", "src/pages/api/googleCalendar.js"],
   "exclude": ["node_modules"]
 }
